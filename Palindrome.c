@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    int n,i,rem,rev=0,o;
+    int n,o,rev=0,rem;
     scanf("%d",&n);
     o=n;
     while(n!=0)
@@ -11,7 +11,8 @@ int main()
         n=n/10;
     }
     if(rev==o)
-    printf("True");
+      printf("True");
     else
-    printf("False");
+      printf("False");
+    
 }
